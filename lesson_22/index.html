@@ -6,9 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./index.js"></script>
+    <style>
+        .loader-block {
+            position: absolute;
+            top:0;
+            left:0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.2;
+            background-color: rgb(49, 49, 47);
+            z-index: 100;
+
+        }
+
+        .loader-block-img{
+            z-index: 100;
+            position: absolute;
+            opacity: 1 !important;
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Наш сайт</h1>
+    <div>hello world</div>
+    <div class="loader-block">
+        <img class="loader-block-img"  src="./Japanese Yen coin.gif" alt="">
+    </div>
 
 </body>
 

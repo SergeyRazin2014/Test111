@@ -150,5 +150,5 @@ const fooAsync = async () => {
     }
 }
 
-
+new FileReader()
 
